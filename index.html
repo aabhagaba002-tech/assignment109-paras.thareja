@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BPT-109 Assignment-1 | Paras Thareja</title>
+<style>
+:root{--ink:#1d1b3a;--bg:#fff8ee;--card:#fff;--c1:#ff4d6d;--c2:#ff9f1c;--c3:#2ec4b6;--c4:#3a86ff;--c5:#8338ec;--c6:#06d6a0;--c7:#ef476f;--c8:#118ab2}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Trebuchet MS","Segoe UI",Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+header{background:linear-gradient(120deg,#8338ec,#3a86ff 45%,#2ec4b6 75%,#ff9f1c);color:#fff;padding:48px 20px 64px;text-align:center}
+header h1{font-size:clamp(2rem,6vw,3.4rem);letter-spacing:1px}
+header p.sub{margin-top:6px;font-size:1.1rem;opacity:.95}
+.badges{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:24px}
+.badge{background:rgba(255,255,255,.2);border:2px solid rgba(255,255,255,.7);padding:8px 18px;border-radius:30px;font-weight:bold}
+main{max-width:960px;margin:-34px auto 40px;padding:0 16px}
+.syl{background:var(--card);border-radius:18px;padding:20px 24px;box-shadow:0 8px 24px rgba(131,56,236,.18);border-left:8px solid var(--c2);margin-bottom:28px}
+.syl h2{color:var(--c5);margin-bottom:6px}
+.syl li{margin-left:20px}
+nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:28px}
+nav a{text-decoration:none;color:#fff;font-weight:bold;padding:6px 14px;border-radius:20px;font-size:.9rem}
+nav a:focus-visible,summary:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.q{background:var(--card);border-radius:18px;margin-bottom:22px;overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.1);border-top:8px solid var(--a)}
+.qh{padding:18px 22px;background:linear-gradient(90deg,var(--a),transparent 140%);background-color:color-mix(in srgb,var(--a) 14%,white)}
+.qh h3{color:var(--a);font-size:1.3rem}
+.tag{display:inline-block;background:var(--a);color:#fff;padding:2px 12px;border-radius:14px;font-size:.8rem;margin:6px 6px 8px 0}
+.qh p{font-weight:bold}
+.body{padding:18px 22px 22px}
+.body h4{color:var(--a);margin:12px 0 4px}
+.body ul,.body ol{margin-left:22px}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:.92rem}
+th{background:var(--a);color:#fff;text-align:left;padding:8px}
+td{padding:8px;border-bottom:1px solid #eee;vertical-align:top}
+tr:nth-child(even) td{background:color-mix(in srgb,var(--a) 7%,white)}
+.scroll{overflow-x:auto}
+.flow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}
+.box{background:var(--a);color:#fff;padding:8px 14px;border-radius:10px;font-weight:bold;font-size:.9rem}
+.arr{font-weight:bold;color:var(--a)}
+.note{background:color-mix(in srgb,var(--a) 12%,white);border-left:5px solid var(--a);padding:10px 14px;border-radius:8px;margin-top:12px}
+footer{background:var(--ink);color:#fff;text-align:center;padding:26px 16px}
+footer b{color:var(--c2)}
+@media(max-width:600px){.body,.qh{padding:14px}}
+</style>
+</head>
+<body>
+<header>
+<h1>BPT-109 Assignment-1</h1>
+<p class="sub">Computer Fundamentals: Introduction to Computer, Input and Output Devices</p>
+<div class="badges">
+<span class="badge">Submitted by: Paras Thareja</span>
+<span class="badge">Roll No: 1826067</span>
+<span class="badge">Submission date: 13-Oct-2026</span>
+</div>
+</header>
+
+<main>
+<section class="syl">
+<h2>Syllabus modules covered</h2>
+<ul>
+<li><b>Unit 1: Introduction to Computer</b> covers characteristics, block diagram, computer generations and computer languages.</li>
+<li><b>Unit 2: Input and Output Devices</b> covers keyboard, point and draw devices, scanning devices, digitizers, card readers, voice recognition, vision-input devices, monitors, plotters, screen image projectors and voice response systems.</li>
+</ul>
+</section>
+
+<nav>
+<a href="#q1" style="background:var(--c1)">Q1</a><a href="#q2" style="background:var(--c2)">Q2</a><a href="#q3" style="background:var(--c3)">Q3</a><a href="#q4" style="background:var(--c4)">Q4</a><a href="#q5" style="background:var(--c5)">Q5</a><a href="#q6" style="background:var(--c8)">Q6</a><a href="#q7" style="background:var(--c7)">Q7</a><a href="#q8" style="background:var(--c6)">Q8</a>
+</nav>
+
+<!-- Q1 -->
+<article class="q" id="q1" style="--a:var(--c1)">
+<div class="qh"><h3>Question 1</h3><span class="tag">Remembering</span><span class="tag">List, Identify</span>
+<p>List four primary characteristics of a modern digital computer and identify the key hardware technology associated with each of the five generations of computers.</p></div>
+<div class="body">
+<h4>Four primary characteristics</h4>
+<ol>
+<li><b>Speed:</b> executes millions to billions of instructions per second.</li>
+<li><b>Accuracy:</b> gives error-free results when the input and program are correct.</li>
+<li><b>Diligence:</b> works for long hours without fatigue or loss of concentration.</li>
+<li><b>Storage capacity:</b> stores huge amounts of data and instructions and retrieves them quickly.</li>
+</ol>
+<p>Other traits include versatility and automation.</p>
+<h4>Five generations</h4>
+<div class="scroll"><table>
+<tr><th>Generation</th><th>Period</th><th>Key hardware technology</th></tr>
+<tr><td>First</td><td>1940-1956</td><td>Vacuum tubes</td></tr>
+<tr><td>Second</td><td>1956-1963</td><td>Transistors</td></tr>
+<tr><td>Third</td><td>1964-1971</td><td>Integrated circuits (ICs)</td></tr>
+<tr><td>Fourth</td><td>1971-present</td><td>Microprocessors (VLSI)</td></tr>
+<tr><td>Fifth</td><td>Present and beyond</td><td>ULSI, AI and parallel processing</td></tr>
+</table></div>
+</div></article>
+
+<!-- Q2 -->
+<article class="q" id="q2" style="--a:var(--c2)">
+<div class="qh"><h3>Question 2</h3><span class="tag">Understanding</span><span class="tag">Explain</span>
+<p>Explain the flow of data, instructions, and control signals within the functional block diagram of a computer, detailing the interaction between the CPU, memory unit, and I/O interface.</p></div>
+<div class="body">
+<div class="flow"><span class="box">Input unit</span><span class="arr">&rarr;</span><span class="box">Memory unit</span><span class="arr">&harr;</span><span class="box">CPU (ALU + CU)</span><span class="arr">&rarr;</span><span class="box">Output unit</span></div>
+<ul>
+<li><b>Input:</b> the I/O interface converts the user's data and programs into binary and sends them into main memory.</li>
+<li><b>Memory:</b> holds the program, the data and the intermediate results. The CPU fetches each instruction from memory.</li>
+<li><b>Control Unit (CU):</b> decodes the instruction and sends control signals that tell the ALU, memory and I/O devices what to do and when.</li>
+<li><b>ALU:</b> carries out the arithmetic and logic operations on data and returns the result to a register or to memory.</li>
+<li><b>Output:</b> the processed result goes from memory through the I/O interface to an output device in a human-readable form.</li>
+</ul>
+<div class="note">Data and instructions travel on the data and address buses. Control signals travel on the control bus, so the CU coordinates every unit.</div>
+</div></article>
+
+<!-- Q3 -->
+<article class="q" id="q3" style="--a:var(--c3)">
+<div class="qh"><h3>Question 3</h3><span class="tag">Applying</span><span class="tag">Demonstrate</span>
+<p>Demonstrate how optical data scanning devices (e.g., barcode/OMR scanners) and electronic card readers (e.g., RFID/smart card readers) can be deployed in a campus environment to automate student attendance and library checkouts.</p></div>
+<div class="body">
+<div class="scroll"><table>
+<tr><th>Device</th><th>Campus use</th><th>How it works</th></tr>
+<tr><td>OMR scanner</td><td>Marks attendance sheets and objective exams.</td><td>Detects shaded bubbles by light reflection and feeds the data to the attendance database.</td></tr>
+<tr><td>Barcode scanner</td><td>Library checkout and return.</td><td>Reads the barcode on a book and on the ID card, then links the book to the student record.</td></tr>
+<tr><td>RFID reader</td><td>Classroom attendance and library gates.</td><td>The student taps the ID card. Radio waves read the tag, and attendance is logged with a timestamp.</td></tr>
+<tr><td>Smart card reader</td><td>Hostel entry, fees and canteen payments.</td><td>Reads the chip on the card and verifies identity before access.</td></tr>
+</table></div>
+<p><b>Benefits:</b> faster processing, fewer proxy attendances, no manual entry errors and automatic overdue alerts.</p>
+</div></article>
+
+<!-- Q4 -->
+<article class="q" id="q4" style="--a:var(--c4)">
+<div class="qh"><h3>Question 4</h3><span class="tag">Analyzing</span><span class="tag">Distinguish</span>
+<p>Distinguish between low-level languages (Machine and Assembly) and high-level languages in terms of execution speed, hardware dependence, translation requirements, and programming complexity.</p></div>
+<div class="body"><div class="scroll"><table>
+<tr><th>Basis</th><th>Low-level (Machine, Assembly)</th><th>High-level (C, Java, Python)</th></tr>
+<tr><td>Execution speed</td><td>Very fast, close to the hardware.</td><td>Slower because of translation overhead.</td></tr>
+<tr><td>Hardware dependence</td><td>Machine-dependent. Code is tied to one processor.</td><td>Machine-independent and portable.</td></tr>
+<tr><td>Translation</td><td>Machine code needs none. Assembly needs an assembler.</td><td>Needs a compiler or an interpreter.</td></tr>
+<tr><td>Complexity</td><td>Hard to write, read and debug.</td><td>English-like, easy to learn and maintain.</td></tr>
+</table></div></div></article>
+
+<!-- Q5 -->
+<article class="q" id="q5" style="--a:var(--c5)">
+<div class="qh"><h3>Question 5</h3><span class="tag">Analyzing</span><span class="tag">Compare</span>
+<p>Compare point-and-draw devices (such as a mouse and trackball) with graphics digitizers/drawing tablets, highlighting how their coordinate tracking mechanisms and pressure sensitivity differ for CAD and digital art applications.</p></div>
+<div class="body"><div class="scroll"><table>
+<tr><th>Feature</th><th>Mouse / Trackball</th><th>Digitizer / Drawing tablet</th></tr>
+<tr><td>Coordinate tracking</td><td>Relative. It reports movement from the last position using optical sensors or a rolling ball.</td><td>Absolute. Each point on the pad maps to one point on the screen.</td></tr>
+<tr><td>Pressure sensitivity</td><td>None.</td><td>Stylus senses hundreds to thousands of pressure levels, plus tilt.</td></tr>
+<tr><td>Precision</td><td>Good for pointing and selecting.</td><td>Very high, like drawing on paper.</td></tr>
+<tr><td>CAD use</td><td>Menu selection and basic drafting.</td><td>Tracing existing drawings and accurate coordinate entry.</td></tr>
+<tr><td>Digital art use</td><td>Limited. Strokes have uniform width.</td><td>Natural brush strokes with variable thickness and opacity.</td></tr>
+</table></div></div></article>
+
+<!-- Q6 -->
+<article class="q" id="q6" style="--a:var(--c8)">
+<div class="qh"><h3>Question 6</h3><span class="tag">Evaluating</span><span class="tag">Assess, Justify</span>
+<p>Assess whether a drum/flatbed plotter or an ultra-high-definition monitor and large-format printer combination is superior for producing civil engineering blueprints, justifying your selection based on line resolution, scalability, and long-term production costs.</p></div>
+<div class="body"><div class="scroll"><table>
+<tr><th>Criterion</th><th>Drum / Flatbed plotter</th><th>UHD monitor + large-format printer</th></tr>
+<tr><td>Line resolution</td><td>Pen plotters draw continuous vector lines, so lines are crisp and exact.</td><td>Raster output can show slight stair-stepping on thin lines.</td></tr>
+<tr><td>Scalability</td><td>Handles very large sheets (A0 and above) at full accuracy.</td><td>Large printers also scale well, but a monitor limits on-screen review size.</td></tr>
+<tr><td>Long-term cost</td><td>Durable and low cost per drawing, though pens need upkeep.</td><td>Ink and head replacement raise running costs.</td></tr>
+</table></div>
+<div class="note"><b>Verdict:</b> a plotter is better for pure engineering blueprints because of line accuracy and low running cost. The monitor and printer combination is better when colour rendering and design review are also needed.</div>
+</div></article>
+
+<!-- Q7 -->
+<article class="q" id="q7" style="--a:var(--c7)">
+<div class="qh"><h3>Question 7</h3><span class="tag">Evaluating</span><span class="tag">Critique</span>
+<p>Critique the operational reliability and security vulnerabilities of vision-input devices (facial recognition) compared to voice recognition devices when deployed as primary biometric authentication tools in high-ambient-noise, publicly exposed environments.</p></div>
+<div class="body"><div class="scroll"><table>
+<tr><th>Aspect</th><th>Facial recognition</th><th>Voice recognition</th></tr>
+<tr><td>Reliability in noisy public spaces</td><td>Not affected by sound. It is affected by poor light, glare, masks and camera angle.</td><td>Background noise sharply reduces accuracy and raises false rejections.</td></tr>
+<tr><td>Spoofing risk</td><td>Photos, videos and masks can fool weak systems unless liveness detection is used.</td><td>Recordings and voice cloning can fool it.</td></tr>
+<tr><td>Privacy risk</td><td>Faces can be captured from a distance without consent.</td><td>Spoken passphrases can be overheard by bystanders.</td></tr>
+</table></div>
+<div class="note"><b>Critique:</b> facial recognition with liveness detection is more reliable in a loud public place. Neither should be the only factor, so pair either with a PIN or a card.</div>
+</div></article>
+
+<!-- Q8 -->
+<article class="q" id="q8" style="--a:var(--c6)">
+<div class="qh"><h3>Question 8</h3><span class="tag">Creating</span><span class="tag">Design</span>
+<p>Design an accessible, hands-free computer workstation tailored for a visually impaired user. Propose a coherent integration of non-visual input devices (such as voice recognition systems and tactile keyboards) with specialized output devices (such as voice response synthesizers and screen readers).</p></div>
+<div class="body">
+<div class="flow"><span class="box">Voice input + tactile keyboard</span><span class="arr">&rarr;</span><span class="box">Computer + screen reader</span><span class="arr">&rarr;</span><span class="box">Speech synthesizer + Braille display</span></div>
+<ul>
+<li><b>Voice recognition system:</b> hands-free commands and dictation, with a noise-cancelling headset microphone.</li>
+<li><b>Tactile keyboard:</b> raised marker keys on F and J, with high-contrast, large-print or Braille key labels.</li>
+<li><b>Screen reader (e.g. NVDA, JAWS):</b> reads on-screen text, menus and buttons aloud.</li>
+<li><b>Voice response synthesizer:</b> text-to-speech gives spoken feedback and confirms every action.</li>
+<li><b>Refreshable Braille display:</b> lets the user read text by touch.</li>
+<li><b>Optional extras:</b> a scanner with OCR to read printed pages aloud, and audio cues for alerts.</li>
+</ul>
+<div class="note">Voice and keyboard give two ways to input. Speech and Braille give two ways to receive output. This keeps the workstation usable even if one channel fails.</div>
+</div></article>
+</main>
+
+<footer>
+<p>Submitted by <b>Paras Thareja</b> | Roll No <b>1826067</b></p>
+<p>BPT-109 Assignment-1 | Submission date: 13-Oct-2026</p>
+</footer>
+</body>
+</html>
